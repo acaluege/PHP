@@ -44,13 +44,27 @@ na medida que vamos trabalhando vamos nos deparar que os dados são iguais tanto
 Tendo o Ex2 como exemplo estariamos nos repetindo a nivel de código.
 ***********************************************************************
 Ex3:
+Solução:
 "Usamos Classes para Funções repetidas".
-
 Para solucionar o problema do Ex1 e Ex2 colocamos as "funcionalidades" dentro da "Classe".
 
+class circle { 
+    //função para um circulo
+    functions calculate_area(){
+        ...
+    }
+}
 
+class quadrado{ 
+    //função para um quadrado
+    functions calculate_area(){
+        ...
+    }
+}
 
-
+Nota1: Desta forma podemos calcular a area pois ambas funções estão dentro de uma classe
+Apesar de que ainda continuamos a ter funções similares nas determinadas classes.
+***************************************************************************
 
 methods (metodos)
 properties (propriedade)
