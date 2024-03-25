@@ -2,10 +2,12 @@ OOP PHP COURSE
 ===============
 1. Classes / Objects
 
+Classe: é a planta da casa.
+Objecto: é a planta se materializando como casa.
+
 Nota1: 
     - Usamos "Funções para Classes repetidas" e 
     - Usamos "Classes para Funções repetidas".
-
 
 Nota2: 
     - Classes tem muitas vantagens sobre as funções.
