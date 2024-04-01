@@ -13,7 +13,24 @@ Nota2:
     Ex1: Podemos ter +10 funções dentro de uma "classe" o que significa 
     que as "funções" estão encapsuladas dentro da "classe" pois ela mantem 
     junta as funções.
-    
+
+Ex1:
+class circle { 
+    //função para um circulo
+    functions calculate_area1(){
+        ...
+    }
+
+    //função para um circulo
+    functions calculate_area2(){
+        ...
+    }
+
+    //função para um circulo
+    functions calculate_area3(){
+        ...
+    }
+}
 
     
 

@@ -24,4 +24,33 @@ pagamento, log, email, database...etc.
 
 Todas as classes da mesma familia vão utilizar os mesmos metodos, então cria uma 
 classe abstrata e as classes da familia vão utilizar estes metodos.
+--------------------------------------------------------------------------------
+Exemplo:Imagine se estivesses a calcular a area de um circulo, então colocamos um código diferente
+dentro da classe circulo e do quadrado a mesma coisa.
+Dependenco da situação dos claculos posso criar uma outra funcionalidade derivada de uma delas
+mas com outro teor ou calculo. 
+<?php
+//Classe Circulo
+class circle { 
+    //função para um circulo
+    function calculate_area(){
+       // ...
+    }
+    //função para um circulo
+    function myfunc(){
+       // ...
+    }
+}
+
+class square { 
+    function calculate_area(){
+    }
+}
+Nota: Classe Abstrata
+    abstract class myclass{
+    
+            abstract function calculate_area();
+}
+
+
 
